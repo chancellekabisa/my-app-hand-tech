@@ -1,5 +1,6 @@
 import React from 'react';
-import PageHeader from '../components/PageHeader';
+import PageHeader from '../PageHeader';
+
 
 const Contact: React.FC = () => {
   return (

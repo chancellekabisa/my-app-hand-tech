@@ -24,7 +24,7 @@ const Quote: React.FC = () => {
               </select>
             </div>
             <textarea placeholder="Special Note" className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-primary" rows={4}></textarea>
-            <button type="submit" className="bg-primary text-white px-6 py-2 rounded hover:bg-primary-dark transition-colors duration-300">Submit</button>
+            <button type="submit" className="bg-primary text-white px-6 py-2 rounded hover:bg-primary-dark transition-colors duration-300">Envoyez</button>
           </form>
         </div>
       </div>

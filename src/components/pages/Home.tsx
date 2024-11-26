@@ -1,8 +1,12 @@
 import React from 'react';
-import PageHeader from '../components/PageHeader';
-import Projects from '../components/Projects';
-import Quote from '../components/Quote';
-import Testimonial from '../components/Testimonial';
+import PageHeader from '../PageHeader';
+import Projects from '../Project';
+import Testimonial from '../Testemonial';
+import { Quote } from 'lucide-react';
+
+ 
+
+
 
 const Home: React.FC = () => {
   return (

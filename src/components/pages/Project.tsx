@@ -1,6 +1,8 @@
 import React from 'react';
-import PageHeader from './components/PageHeader';
-import Projects from './components/Projects';
+import PageHeader from '../PageHeader';
+import Projects from '../Project';
+
+
 
 const Project: React.FC = () => {
   return (

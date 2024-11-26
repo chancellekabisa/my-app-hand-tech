@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { Eye, Link } from 'lucide-react';
 
 const projects = [
-  { id: 1, category: 'solar', image: '/img/img-600x400-6.jpg', title: 'Solar Panels' },
-  { id: 2, category: 'wind', image: '/img/img-600x400-5.jpg', title: 'Wind Turbines' },
-  { id: 3, category: 'hydro', image: '/img/img-600x400-4.jpg', title: 'Hydropower Plants' },
-  { id: 4, category: 'solar', image: '/img/img-600x400-3.jpg', title: 'Solar Panels' },
-  { id: 5, category: 'wind', image: '/img/img-600x400-2.jpg', title: 'Wind Turbines' },
-  { id: 6, category: 'hydro', image: '/img/img-600x400-1.jpg', title: 'Hydropower Plants' },
+  { id: 1, category: 'solar', image: '/img/img-600x400-6.jpg', title: 'Électronique' },
+  { id: 2, category: 'wind', image: '/img/img-600x400-5.jpg', title: 'Vente ' },
+  { id: 3, category: 'hydro', image: '/img/img-600x400-4.jpg', title: 'Installation des panneaux solaire' },
+  { id: 4, category: 'solar', image: '/img/img-600x400-3.jpg', title: 'Électricité' },
+  { id: 5, category: 'wind', image: '/img/img-600x400-2.jpg', title: 'Maintenance des équipements' },
+  { id: 6, category: 'hydro', image: '/img/img-600x400-1.jpg', title: 'Conception' },
 ];
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState('all');
+  const [filter] = useState('all');
 
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
 
@@ -19,14 +19,9 @@ const Projects: React.FC = () => {
     <div className="py-16">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h6 className="text-primary font-bold mb-2">Our Projects</h6>
-          <h1 className="text-4xl font-bold mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
-        </div>
-        <div className="flex justify-center mb-8">
-          <button onClick={() => setFilter('all')} className={`mx-2 ${filter === 'all' ? 'text-primary' : 'text-gray-700'}`}>All</button>
-          <button onClick={() => setFilter('solar')} className={`mx-2 ${filter === 'solar' ? 'text-primary' : 'text-gray-700'}`}>Solar Panels</button>
-          <button onClick={() => setFilter('wind')} className={`mx-2 ${filter === 'wind' ? 'text-primary' : 'text-gray-700'}`}>Wind Turbines</button>
-          <button onClick={() => setFilter('hydro')} className={`mx-2 ${filter === 'hydro' ? 'text-primary' : 'text-gray-700'}`}>Hydropower Plants</button>
+          <h6 className="text-primary font-bold mb-2">Nos Projets</h6>
+          <h1 className="text-4xl font-bold mb-4">Nous sommes des pionniers dans le monde des
+              énergies renouvelables</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (

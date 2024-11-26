@@ -25,7 +25,7 @@ const ContactForm: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
       <div className="mb-4">
-        <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
+        <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">Nom</label>
         <input
           type="text"
           id="name"
@@ -37,7 +37,7 @@ const ContactForm: React.FC = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Your Email</label>
+        <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Email</label>
         <input
           type="email"
           id="email"
@@ -49,7 +49,7 @@ const ContactForm: React.FC = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="subject" className="block text-gray-700 text-sm font-bold mb-2">Subject</label>
+        <label htmlFor="subject" className="block text-gray-700 text-sm font-bold mb-2">Objet</label>
         <input
           type="text"
           id="subject"

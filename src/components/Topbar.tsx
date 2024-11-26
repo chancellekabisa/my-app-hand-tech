@@ -8,17 +8,17 @@ const Topbar: React.FC = () => {
         <div className="flex items-center space-x-4">
           <div className="flex items-center">
             <MapPin className="w-4 h-4 text-primary mr-2" />
-            <small>123 Street, New York, USA</small>
+            <small>Kinshasa</small>
           </div>
           <div className="flex items-center">
             <Clock className="w-4 h-4 text-primary mr-2" />
-            <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+            <small>Lund - Vend : 09.00 AM - 09.00 </small>
           </div>
         </div>
         <div className="flex items-center space-x-4">
           <div className="flex items-center">
             <Phone className="w-4 h-4 text-primary mr-2" />
-            <small>+012 345 6789</small>
+            <small>+243823131596</small>
           </div>
           <div className="flex items-center space-x-2">
             <a href="#" className="text-white hover:text-primary"><Facebook className="w-4 h-4" /></a>
