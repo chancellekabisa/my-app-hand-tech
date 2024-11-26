@@ -19,8 +19,9 @@ const Projects: React.FC = () => {
     <div className="py-16">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h6 className="text-primary font-bold mb-2">Nos projets</h6>
-          <h1 className="text-4xl font-bold mb-4">Visitez nos derniers projets d'énergie solaire et renouvelable
+          <h6 className="text-primary font-bold mb-2">Our Projects</h6>
+          <h1 className="text-4xl font-bold mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+        </div>
         <div className="flex justify-center mb-8">
           <button onClick={() => setFilter('all')} className={`mx-2 ${filter === 'all' ? 'text-primary' : 'text-gray-700'}`}>All</button>
           <button onClick={() => setFilter('solar')} className={`mx-2 ${filter === 'solar' ? 'text-primary' : 'text-gray-700'}`}>Solar Panels</button>
@@ -40,7 +41,7 @@ const Projects: React.FC = () => {
               <div className="p-4">
                 <p className="text-primary mb-2">{project.title}</p>
                 <hr className="border-primary w-1/4 mb-2" />
-                <h5 className="text-lg font-semibold">Nous sommes des pionniers de l'industrie de l'énergie solaire et renouvelable</h5>
+                <h5 className="text-lg font-semibold">We Are pioneers of solar & renewable energy industry</h5>
               </div>
             </div>
           ))}

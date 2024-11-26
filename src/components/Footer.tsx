@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h5 className="text-white text-lg font-semibold mb-4">Address</h5>
-          <p className="flex items-center mb-2"><MapPin className="w-4 h-4 mr-2" /> Kinshasa</p>
-          <p className="flex items-center mb-2"><Phone className="w-4 h-4 mr-2" /> +243823131596</p>
+          <p className="flex items-center mb-2"><MapPin className="w-4 h-4 mr-2" /> 123 Street, New York, USA</p>
+          <p className="flex items-center mb-2"><Phone className="w-4 h-4 mr-2" /> +012 345 67890</p>
           <p className="flex items-center mb-4"><Mail className="w-4 h-4 mr-2" /> info@example.com</p>
           <div className="flex space-x-2">
             <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors duration-300"><Twitter className="w-4 h-4" /></a>
@@ -18,15 +18,15 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div>
-          <h5 className="text-white text-lg font-semibold mb-4">Nos Liens</h5>
-          <a href="#" className="block mb-2 hover:text-primary">A propos de nous</a>
-          <a href="#" className="block mb-2 hover:text-primary">Contact nous</a>
-          <a href="#" className="block mb-2 hover:text-primary">Nos Services</a>
-          <a href="#" className="block mb-2 hover:text-primary">Conditions Génerale</a>
+          <h5 className="text-white text-lg font-semibold mb-4">Quick Links</h5>
+          <a href="#" className="block mb-2 hover:text-primary">About Us</a>
+          <a href="#" className="block mb-2 hover:text-primary">Contact Us</a>
+          <a href="#" className="block mb-2 hover:text-primary">Our Services</a>
+          <a href="#" className="block mb-2 hover:text-primary">Terms & Condition</a>
           <a href="#" className="block mb-2 hover:text-primary">Support</a>
         </div>
         <div>
-          <h5 className="text-white text-lg font-semibold mb-4">Galerie de projets</h5>
+          <h5 className="text-white text-lg font-semibold mb-4">Project Gallery</h5>
           <div className="grid grid-cols-3 gap-2">
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <img key={i} src={`/img/gallery-${i}.jpg`} alt={`Gallery ${i}`} className="rounded" />
@@ -43,10 +43,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-        <p>&copy; <a href="#" className="text-primary">@Hand Tech</a>, All Right Reserved.</p>
+        <p>&copy; <a href="#" className="text-primary">Your Site Name</a>, All Right Reserved.</p>
         <p className="mt-2">
-          Designed By <a href="https://htmlcodex.com" className="text-primary"> Designed By </a>
-          <br />Distributed By: <a href="https://themewagon.com" target="_blank" rel="noopener noreferrer" className="text-primary"></a>
+          Designed By <a href="https://htmlcodex.com" className="text-primary">HTML Codex</a>
+          <br />Distributed By: <a href="https://themewagon.com" target="_blank" rel="noopener noreferrer" className="text-primary">ThemeWagon</a>
         </p>
       </div>
     </footer>

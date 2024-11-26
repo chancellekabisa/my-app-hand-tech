@@ -31,7 +31,7 @@ const Testimonial: React.FC = () => {
     <div className="py-16">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h6 className="text-primary font-bold mb-2">Temoignage</h6>
+          <h6 className="text-primary font-bold mb-2">Testimonial</h6>
           <h1 className="text-4xl font-bold mb-4">What Our Clients Say!</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
